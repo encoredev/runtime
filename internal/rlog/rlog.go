@@ -4,9 +4,10 @@ import (
 	"encoding/json"
 	"time"
 
-	"encore.dev/runtime"
-	"encore.dev/types/uuid"
 	"github.com/rs/zerolog"
+
+	"runtime.encore.dev/runtime"
+	"runtime.encore.dev/types/uuid"
 )
 
 type Ctx struct {

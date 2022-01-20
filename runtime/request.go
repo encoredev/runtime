@@ -7,12 +7,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"encore.dev/beta/errs"
-	"encore.dev/internal/metrics"
-	"encore.dev/internal/stack"
-	"encore.dev/runtime/config"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/rs/zerolog"
+
+	"runtime.encore.dev/beta/errs"
+	"runtime.encore.dev/internal/metrics"
+	"runtime.encore.dev/internal/stack"
+	"runtime.encore.dev/runtime/config"
 
 	// These imports are used only by the generated wrappers in the compiler,
 	// but add them here so the 'go' command doesn't remove them from go.mod.
@@ -250,7 +251,7 @@ func SerializeInputs(inputs ...interface{}) ([][]byte, error) {
 
 func CopyInputs(inputs [][]byte, outputs []interface{}) error {
 	if len(inputs) != len(outputs) {
-		panic(fmt.Sprintf("encore.dev/runtime.CopyInputs: len(inputs) != len(outputs): %v != %v",
+		panic(fmt.Sprintf("runtime.encore.dev/runtime.CopyInputs: len(inputs) != len(outputs): %v != %v",
 			len(inputs), len(outputs)))
 	}
 	for i, data := range inputs {

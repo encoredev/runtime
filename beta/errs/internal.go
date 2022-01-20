@@ -5,7 +5,7 @@ import (
 	"encoding/gob"
 	"log"
 
-	"encore.dev/internal/stack"
+	"runtime.encore.dev/internal/stack"
 )
 
 func Stack(err error) stack.Stack {

@@ -3,7 +3,7 @@ package errs
 import (
 	"fmt"
 
-	"encore.dev/internal/stack"
+	"runtime.encore.dev/internal/stack"
 )
 
 type Builder struct {

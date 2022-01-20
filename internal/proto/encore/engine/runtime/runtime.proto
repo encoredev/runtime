@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "encore.dev/internal/proto/encore/engine/runtime";
+option go_package = "runtime.encore.dev/internal/proto/encore/engine/runtime";
 
 package encore.engine.runtime;
 

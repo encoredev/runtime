@@ -1,7 +1,7 @@
 package rlog
 
 import (
-	"encore.dev/internal/rlog"
+	"runtime.encore.dev/internal/rlog"
 )
 
 type Ctx = rlog.Ctx

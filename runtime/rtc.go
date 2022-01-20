@@ -5,9 +5,10 @@ import (
 	"log"
 	"os"
 
-	runtimepb "encore.dev/internal/proto/encore/engine/runtime"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
+
+	runtimepb "runtime.encore.dev/internal/proto/encore/engine/runtime"
 )
 
 var (

@@ -1,4 +1,4 @@
-module encore.dev
+module runtime.encore.dev
 
 go 1.16
 

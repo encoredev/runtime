@@ -3,7 +3,7 @@ package auth
 import (
 	"context"
 
-	"encore.dev/runtime"
+	"runtime.encore.dev/runtime"
 )
 
 // UID is a unique identifier representing a user (a user id).

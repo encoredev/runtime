@@ -10,7 +10,7 @@ import (
 
 	_ "unsafe" // for go:linkname
 
-	"encore.dev/internal/stack"
+	"runtime.encore.dev/internal/stack"
 )
 
 type TraceEvent byte

@@ -6,8 +6,9 @@ import (
 	"strings"
 	"unsafe"
 
-	"encore.dev/internal/stack"
 	jsoniter "github.com/json-iterator/go"
+
+	"runtime.encore.dev/internal/stack"
 )
 
 var json = jsoniter.Config{

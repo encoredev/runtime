@@ -9,11 +9,12 @@ import (
 	"syscall"
 	"time"
 
-	"encore.dev/internal/metrics"
-	"encore.dev/runtime/config"
 	"github.com/julienschmidt/httprouter"
 	"github.com/prometheus/common/expfmt"
 	"github.com/rs/zerolog"
+
+	"runtime.encore.dev/internal/metrics"
+	"runtime.encore.dev/runtime/config"
 )
 
 type Server struct {
